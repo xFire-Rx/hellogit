@@ -34,7 +34,7 @@ return 0;
 int linearSearch(auto data,auto width){
 
 for(int i = 0; i < data.size();i++){
-	if(date[i].getWidth() == width){
+	if(data[i].getWidth() == width){
 	return i;
 }
 }
