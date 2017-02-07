@@ -3,6 +3,8 @@
 #include "Rectangle.h"
 using namespace std;
 
+int linearSearch(auto data,auto key);
+
 int main(){
 Rectangle obj;
 vector <Rectangle> Rect;
@@ -27,4 +29,14 @@ cout << Rect[i].getWidth() << endl;
 system("pause");
 
 return 0;
+}
+
+int linearSearch(auto data,auto width){
+
+for(int i = 0; i < data.size();i++){
+	if(date[i].getWidth() == width){
+	return i;
+}
+}
+return -1;
 }
